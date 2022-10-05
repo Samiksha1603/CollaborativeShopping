@@ -2,7 +2,11 @@
   padding: 0 2rem;
 }
 
-.main {
+.chat {
+  float: right;
+}
+
+/* .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -71,9 +75,9 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-}
+} */
 
-.card {
+/* .card {
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -95,9 +99,9 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-}
+} */
 
-.card p {
+/* .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -126,4 +130,4 @@
   .logo img {
     filter: invert(1);
   }
-}
+} */
