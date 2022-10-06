@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Navigation/>
-      <Cardsss />
+      <Cardsss/>
     </div>
   );
 }

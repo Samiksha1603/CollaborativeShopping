@@ -7,6 +7,7 @@ import pusher from 'pusher'
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './app';
+import Link from 'next/link';
 
 // import {router} from "next/client";
 // import { Html, Main } from 'next/document'
@@ -61,7 +62,7 @@ export default function Home() {
   // <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
 
   return (
-    <div className={styles.container}>
+    <div className={styles.fullbody}>
       <Head>
         <title>Colab</title>
         <meta charset="utf-8" />
@@ -75,30 +76,30 @@ export default function Home() {
         <script src="https://js.pusher.com/7.2/pusher.min.js"></script>
         <div className="d-flex flex-column align-items-stretch flex-shrink-0 bg-white" className={styles.chat}>
           <div className="d-flex align-items-center flex-shrink-0 p-3 link-dark text-decoration-none border-bottom">
-            <span >Enter username : </span>
-            <input className="fs-5 fw-semibold" placeholder='Username' value={username} onChange={e => setUsername(e.target.value)}/>
+            <span className={styles.chattop}>Enter username :</span>
+            <input className={styles.input} placeholder='  Username' value={username} onChange={e => setUsername(e.target.value)}/>
           </div>
 
-          <div className="list-group list-group-flush border-bottom scrollarea" style={{minHeight: "200px"}}>
+          <div className={styles.chatarea} style={{minHeight: "300px"}}>
             {messages.map(message => {
               return(
-                <div className="list-group-item list-group-item-action py-3 lh-tight">
-                  <div className="d-flex w-100 align-items-center justify-content-between">
-                    <strong className="mb-1">{message.username}</strong>
+                <>
+                  <div className={styles.message}>
+                    <strong>{message.username}</strong>
+                    <div className="col-10 mb-1 small">{message.message}</div>
                   </div>
-                  <div className="col-10 mb-1 small">{message.message}</div>
-                </div>
+                </>
               )
             })}
           </div>
-        </div>
 
-        <form onSubmit={submit} className={styles.chat}>
-          <input className='form-control' placeholder='Enter your message' value = {message}
-              onChange={e => setMessage(e.target.value)}
-          />
-          <button type='submit'>Submit</button>
-        </form>
+          <form onSubmit={submit} className={styles.chatbottom}>
+            <input className={styles.input} placeholder='Enter your message' value = {message}
+                onChange={e => setMessage(e.target.value)}
+            />
+            <button type='submit' className={styles.button}> Send </button>
+          </form>
+        </div>
       </React.StrictMode>
       <script>var Alert = ReactBootstrap.Alert;</script>
     </div>
