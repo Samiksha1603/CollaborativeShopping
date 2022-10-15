@@ -12,7 +12,7 @@ function Navigation() {
     <>
       <Navbar bg="light" expand="lg" className='pe-5 ps-5'>
         <Container fluid>
-          <Navbar.Brand href="#">Website ka Naam</Navbar.Brand>
+          <Navbar.Brand href="#">Colab</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav

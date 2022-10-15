@@ -20,9 +20,9 @@ export default function Cardsss() {
       <Card style={{ display: 'flex', flexDirection: 'row',width: '50rem' }} >
         <Card.Img style={{ width: '10rem' }} src="https://i5.walmartimages.com/asr/d63cc29a-1802-4b13-bee5-30f1f03435e7.ef5de3226a1d75ce0e8dd94e4f79eaca.jpeg" fluid />
         <Card.Body >
-          <Card.Title>Special title treatment</Card.Title>
+          <Card.Title>Product title</Card.Title>
           <Card.Text>
-            With supporting text below as a natural lead-in to additional content.
+            Produc description product description product description
           </Card.Text>
           <>
             <button href="#" className={styles.button} >Add to cart</button> {' '}
@@ -35,9 +35,9 @@ export default function Cardsss() {
       <Card style={{ display: 'flex', flexDirection: 'row',width: '50rem' }} >
         <Card.Img style={{ width: '10rem' }} src="https://i5.walmartimages.com/asr/d63cc29a-1802-4b13-bee5-30f1f03435e7.ef5de3226a1d75ce0e8dd94e4f79eaca.jpeg" fluid />
         <Card.Body >
-          <Card.Title>Special title treatment</Card.Title>
+          <Card.Title>Product title</Card.Title>
           <Card.Text>
-            With supporting text below as a natural lead-in to additional content.
+            Produc description product description product description
           </Card.Text>
           <>
             <button href="#" className={styles.button} >Add to cart</button> {' '}
@@ -50,9 +50,9 @@ export default function Cardsss() {
       <Card style={{ display: 'flex', flexDirection: 'row',width: '50rem' }} >
         <Card.Img style={{ width: '10rem' }} src="https://i5.walmartimages.com/asr/d63cc29a-1802-4b13-bee5-30f1f03435e7.ef5de3226a1d75ce0e8dd94e4f79eaca.jpeg" fluid />
         <Card.Body >
-          <Card.Title>Special title treatment</Card.Title>
+          <Card.Title>Product title</Card.Title>
           <Card.Text>
-            With supporting text below as a natural lead-in to additional content.
+            Produc description product description product description
           </Card.Text>
           <>
             <button href="#" className={styles.button} >Add to cart</button> {' '}
