@@ -3,5 +3,3 @@ E-commerce has bloomed over the years and is one of the fastest-growing domains 
 Shopping with friends has been a mainstay of the retail industry since stores were first introduced.In a physical store asking for a buying validation or a recommendation from a friend or family member is easy and friction less. With our website you can chat with your friends / family in a session and get recommendations for your next purchase. At the same time you can buy items within a group and get views on the same using the polling system, You can also suggest the items to others using the suggestion feature.
 
 ![homechat](https://user-images.githubusercontent.com/73897765/205587597-5e14b0fc-4d5f-45a7-a473-c18a481fb414.jpeg)
-![cart](https://user-images.githubusercontent.com/73897765/205587618-73f05e4e-e98c-4e09-89b8-c0ba475597b8.jpeg)
-![details](https://user-images.githubusercontent.com/73897765/205587621-fa1918fc-50e8-4709-868a-12e75467d844.jpeg)
