@@ -74,7 +74,7 @@ export default function Home() {
         <App />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous"/>
         <script src="https://js.pusher.com/7.2/pusher.min.js"></script>
-        <div className="d-flex flex-column align-items-stretch flex-shrink-0 bg-white" className={styles.chat}>
+        <div className={styles.chat}>
           <div className="d-flex align-items-center flex-shrink-0 p-3 link-dark text-decoration-none border-bottom">
             <span className={styles.chattop}>Enter username :</span>
             <input className={styles.input} placeholder='  Username' value={username} onChange={e => setUsername(e.target.value)}/>
